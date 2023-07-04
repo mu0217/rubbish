@@ -1,0 +1,431 @@
+
+#main {
+    position: relative;
+}
+
+#header {
+    /* border: 1px solid rgba(154, 154, 154, 0.514); */
+
+    background-color: #ffffff2b;
+
+    height: 8vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0.5rem 0;
+
+    box-sizing: border-box;
+}
+
+#header a{
+    color: rgba(56, 56, 56, 0.537);
+    text-decoration: none;
+}
+
+#header a:hover{
+    color: rgba(46, 43, 43, 0.84);
+}
+
+ul.icons {
+    /* border: 1px solid red; */
+
+    margin: 0px;
+    padding:0px;
+
+    width: 70%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    list-style: none;
+}
+
+ul.icons li {
+    margin: 0;
+}
+
+.content {
+    /* border: 1px solid pink; */
+
+    width: 94%;
+
+    margin: auto;
+}
+
+.content p {
+    text-align: center;
+}
+
+.image {
+    z-index: -100;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    overflow: hidden;
+}
+
+.image>img {
+    width: 100%;
+    resize: both;
+}
+
+#banner {
+    /* border: 1px solid red; */
+    height: 100vh;
+    overflow: hidden;
+}
+
+#banner header {
+    /* border: 1px solid red; */
+    height: 80vh;
+    line-height: 40vh;
+
+    font-size:x-large;
+    text-align: center;
+
+    color: rgb(123, 117, 113);
+
+    padding: 0vh;
+}
+
+#banner p {
+    height: 20vh;
+    line-height: 2.5rem;
+
+    position: absolute;
+    top: 45vh;
+    left: 0;
+
+    margin: auto 4rem;
+
+    color: white;
+}
+
+#banner .image {
+    width: 100%;
+    height: 24vh;
+
+    top:40vh;
+}
+
+.actions {
+    /* border: 1px solid blue; */
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+
+    list-style-type: none;
+
+    text-align: center;
+}
+
+a.button {
+    color: rgb(217, 217, 217);
+    font-size: larger;
+    text-decoration: none;
+}
+
+a.button:hover {
+    color: rgb(63, 63, 63);
+}
+
+header.major {
+    height: 10vh;
+    line-height: 10vh;
+
+    font-size: x-large;
+
+    margin: 2rem;
+    margin-top: 5vh;
+
+    color: rgb(223,218,213);
+}
+
+#main section:nth-child(3)  {
+    /* border: 1px solid red; */
+    height: 80vh;
+
+    margin-bottom: 15vh;
+
+    border-top: 1px solid rgb(219,214,209);
+}
+
+.features {
+    /* border: 1px solid purple; */
+
+    width: 95%;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+
+    padding: 0rem;
+    margin: auto;
+}
+
+#main section:nth-child(3) .content {
+    /* border: 1px solid red; */
+    width: 12vw;
+    height: 95%;
+    margin: 2rem auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border: none; 
+
+    box-shadow: 1px 1px 5px 1px rgba(199, 175, 158, 0.468);
+}
+
+#main section:nth-child(3) .content h3 {
+    font-size: x-large;
+    line-height: 2.6rem;
+    text-align: left;
+
+    letter-spacing: 0.1em;
+
+    margin-left: 5px;
+
+    color: rgb(214,209,204);
+}
+
+#main section:nth-child(3) .content h3::first-letter {
+    font-size: xxx-large;
+    
+    color: rgb(123, 117, 113);
+}
+
+#main section:nth-child(3) .content p {
+    line-height: 1.6rem;
+    padding: 0 1.3rem;
+
+    box-sizing: content-box;
+
+    color: rgba(50, 50, 50, 0.833);
+}
+
+#main section:nth-child(4) {
+    /* border: 1px solid red; */
+
+    height: 135vh;
+
+    margin: 8vh auto;
+}
+
+#main section:nth-child(4) .major {
+    /* border: 1px solid red; */
+    margin-top: 12vh;
+    margin-bottom: 9vh;
+}
+
+.posts {
+    /* border: 1px solid purple; */
+
+    width: 72vw;
+    height:100vh ;
+
+    margin: auto;
+}
+
+.posts .image {
+    position: relative;
+    height: 20vh;
+}
+
+.posts>article {
+    /* border: 1px solid pink; */
+
+    border-top: 1px solid rgba(214, 209, 204, 0.459);
+
+    position: relative;
+
+    width: 72vw;
+    height:15vh ;
+
+    margin: 0 auto;
+    margin-bottom: 5vh;
+
+    box-sizing: border-box;
+
+    padding-right:0.4em ;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.posts>article h3 {
+    /* margin: 0 2rem; */
+    position: absolute;
+    top: 0;
+    left: 0.9em;
+
+    font-size: x-large;
+
+    line-height: 5vh;
+
+    color: rgba(232, 227, 223, 0.772);
+}
+
+.posts>article p {
+    text-align: center;
+
+    font-size: medium;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+
+    margin: 1.2em 3em;
+}
+
+#sidebar {
+    /* border: 1px solid green; */
+
+    width: 100%;
+
+    margin: auto;
+    margin-bottom: 0;
+}
+
+#search input[type="text"] {
+    width: 90vw;
+    height: 2.5rem;
+
+    border: 1px solid rgba(164, 160, 160, 0.669);
+    /* border-radius: 10px; */
+
+    color:rgba(199, 199, 199, 0.669) ;
+
+    font-size: larger;
+
+    margin: 0 2.5vw;
+
+    padding: 0 1rem;
+}
+
+#search input[type="text"]:focus {
+    border: 1px solid rgba(54, 53, 53, 0.669);
+
+    color:rgba(116, 114, 114, 0.669) ;
+}
+
+#menu .major{
+    line-height: 1rem;
+
+    font-size: larger;
+    text-align: center;
+
+    margin-bottom:0 ;
+
+    color: rgb(123, 117, 113);
+}
+
+#menu ul{
+    /* border: 1px solid red; */
+
+    height: 3rem;
+
+    margin: 0;
+    margin-top: -1rem;
+    padding: 0 5rem;
+
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu li {
+    box-shadow: 1px 1px 1px 1px rgba(194,185,180);
+
+    width: 5.5rem;
+    height: 5.5rem;
+
+    text-align: center;
+    line-height: 5.5rem;
+
+    background-color: rgba(194,185,180);
+}
+
+#menu li:hover {
+    background-color: white;
+}
+
+#menu li:hover a {
+    color: rgba(194,185,180);
+}
+
+#menu a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+nav+section{
+    border: 1px solid rgb(220,215,211);
+    margin-top: 4rem;
+    margin-bottom: 0;
+
+    padding: 0 1rem;
+
+    background-color: rgba(220, 215, 211, 0.751);
+    color: white;
+}
+
+nav+section h2 {
+    /* border: 1px solid red; */
+
+    height: 2vh;
+
+    line-height: 2vh;
+
+    margin: 0 -1rem;
+
+    color: rgb(123, 117, 113);
+}
+
+nav+section p {
+    margin: -3rem 1rem 2rem 1rem;
+}
+
+ul.contact li{
+    line-height: 1.5rem;
+}
+
+ul.contact a {
+    color: rgb(184, 184, 184);
+}
+
+ul.contact a:hover {
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    height: 5vh;
+    line-height: 5vh;
+    text-align: center;
+
+    background-color: rgb(220,215,211);
+    color: white;
+
+    margin-top: -1rem;
+}
+
+footer a{
+    color: rgb(184, 184, 184);
+}
+
+footer a:hover {
+    color: white;
+}
